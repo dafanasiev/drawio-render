@@ -1,6 +1,7 @@
 {
   "name": "drawio-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "private": true,
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dafanasiev/drawio-render/issues"
   },
-  "homepage": "https://github.com/dafanasiev/drawio-render#readme"
+  "homepage": "https://github.com/dafanasiev/drawio-render#readme",
+  "dependencies": {
+    "command-exists": "^1.2.8"
+  }
 }
